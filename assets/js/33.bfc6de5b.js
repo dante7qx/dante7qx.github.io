@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[33],{425:function(n,e,t){"use strict";t.r(e);var r={props:{src:{type:String,required:!0}},mounted(){fetch(this.src).then(n=>n.text()).then(n=>{this.$refs.container.innerHTML=n})}},i=t(8),s=Object(i.a)(r,(function(){return(0,this._self._c)("div",{ref:"container"})}),[],!1,null,null,null);e.default=s.exports}}]);
